@@ -5,7 +5,7 @@ if index = " "
 
   return false
 end
-if board[index] == "X" || board[index] == "O"
+if board[index] == "X" 
 
   return true
 
