@@ -4,11 +4,12 @@ def position_taken? ( board,index )
 if index = " "
 
   return false
-end
-if index = ("X" || "O")
+end 
+if index = "X" || "O"
 
   return true
 
 end
-
+puts board.inspect
+puts index.inspect
 end
