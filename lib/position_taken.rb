@@ -5,4 +5,10 @@ if index = " "
 
   return false
 end
+if board = "X" || "O"
+
+  return true
+
+end
+
 end
