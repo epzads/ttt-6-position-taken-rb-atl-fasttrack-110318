@@ -5,7 +5,7 @@ if index = " "
 
   return false
 end
-if board = ("X" || "O")
+if index = ("X" || "O")
 
   return true
 
