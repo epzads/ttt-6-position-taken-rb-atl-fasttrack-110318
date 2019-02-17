@@ -10,10 +10,10 @@ if board[index] == "X"
   return true
 
 end
-if board[index] == "X"
+if board[index] == "O"
 
 return true
-end 
+end
 
 puts board.inspect
 puts index.inspect
