@@ -5,11 +5,16 @@ if index = " "
 
   return false
 end
-if board[index] == "X" 
+if board[index] == "X"
 
   return true
 
 end
+if board[index] == "X"
+
+return true
+end 
+
 puts board.inspect
 puts index.inspect
 end
