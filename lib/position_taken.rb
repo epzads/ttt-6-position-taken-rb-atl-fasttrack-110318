@@ -5,16 +5,11 @@ if index = " "
 
   return false
 end
-if board[index] == "X"
-
-  return true
-
-end
-if board[index] == "O"
+if board[index] == ("X" || "O")
 
 return true
 end
 
-puts board.inspect
-puts index.inspect
+#puts board.inspect
+#puts index.inspect
 end
